@@ -1,10 +1,10 @@
-Netflix Data Analysis using PostgreSQL
-Project Overview
+##Netflix Data Analysis using PostgreSQL
+#Project Overview
 
 This project focuses on analyzing Netflix movies and TV shows data using SQL in PostgreSQL.
 The objective of this analysis is to explore content trends, understand viewer classifications, identify top-performing categories, and practice real-world SQL data analysis techniques.
 
-The project includes:
+#The project includes:
 
 Data Cleaning
 Exploratory Data Analysis (EDA)
@@ -14,7 +14,7 @@ Window Functions
 Ranking Analysis
 Dataset
 
-Dataset used: Netflix Movies and TV Shows Dataset
+#Dataset used: Netflix Movies and TV Shows Dataset
 
 Source:
 Netflix Dataset on Kaggle
@@ -57,7 +57,7 @@ CREATE TABLE netflix (
     listed_in TEXT,
     description TEXT
 );
-Key Analysis Performed
+###Key Analysis Performed
 1. Movies vs TV Shows Analysis
 Counted total number of Movies and TV Shows available on Netflix.
 Compared content distribution by type.
@@ -95,7 +95,7 @@ Identified directors with the highest number of titles on Netflix.
 Found longest movies and analyzed average duration trends.
 SQL Concepts Used
 
-This project demonstrates practical usage of:
+##This project demonstrates practical usage of:
 
 SELECT Statements
 WHERE Clause
@@ -130,7 +130,7 @@ Real-world business problem solving
 Analytical thinking
 Future Improvements
 
-Possible future enhancements for this project:
+##Possible future enhancements for this project:
 
 Connect PostgreSQL with Power BI
 Build interactive dashboards
